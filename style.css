@@ -1,0 +1,47 @@
+.content-section {
+    text-align: center;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: auto;
+    zoom: 1;
+}
+
+.login-container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 500px;
+    text-align: auto;
+    margin-left: auto;
+}
+
+.login-container h1 {
+    margin-left: 80px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 150%;
+    padding: 12px 2px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    background-color: #3aa33e;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 50px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
